@@ -1,0 +1,75 @@
+
+body {
+
+    background-color: rgb(237, 237, 237);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: hwb(49 31% 4%); /* Background color for the header */
+    color: #83a6fe; /* Text color for the header */
+    padding: 1%; /* Add some padding for spacing */
+    text-align: center; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80px; /* Adjust the height as needed */
+    font-size: 40px;
+}
+
+nav {
+    display: flex; /* Make the navigation menu items display horizontally */
+    justify-content: space-between; /* Spread the items evenly horizontally */
+    align-items: center; /* Center items vertically within the header */
+}
+.mainimage {
+    width: 750px; /* Adjust the width as needed to make the images smaller */
+    margin-right: 10px; /* Add space to the right of each image */
+}
+
+nav h1 {
+    margin: 0; /* Remove default margin for the h1 element */
+}
+
+nav ul {
+    display: ; /* Make the list items display horizontally */
+}
+
+nav li {
+    margin-right: 10px; /* Add some margin between list items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline for links */
+    color: #6e8a71; /* Text color for the links */
+}
+
+section {
+
+    color:rgb(171, 149, 4)
+}
+
+.sections-container {
+    display: flex; /* Use flexbox to make sections display inline */
+    justify-content: space-between; /* Adjust this as needed for spacing */
+    align-items: center; /* Center elements vertically if needed */
+}
+
+.sections-container section {
+    /* Add styles for individual sections, e.g., margin, padding, etc. */
+    padding: 10px;
+}
+
+.image {
+    width: 500px; /* Adjust the width as needed to make the images smaller */
+    margin-right: 10px; /* Add space to the right of each image */
+}
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
