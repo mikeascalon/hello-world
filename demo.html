@@ -3,18 +3,17 @@
 <head>
 
     <link rel="stylesheet" href="style.css">
-
     <title>Puppy Rescue</title>
+    <script language="javascript">
+        alert("Welcome to Puppy Rescue")     
+    </script>
 
-<script language="javascript">
-    alert("Welcome to Puppy Rescue")
-   
-</script>
+<script src="app.js"></script>
 
 </head>
 <body>
     <header>
-        
+       
         <nav>
             <h1>Puppy Rescue</h1>
             <ul>
@@ -30,30 +29,22 @@
        
     </header>
 <section>
+
     <script>
- 
-        var name = prompt("Your name:", "");
-        document.write("Welcome!   ", name);
+        let theirName = getName();
+        greetUser(theirName);
         
-         
-        </script>
-</section>
+    </script>
 
 
-    <section>
-    
         <img class="mainimage" alt="Picture of a dog shelter" src="Shelterdogs.JPG"">
 
-        <script>
-            let visitorAnswer = prompt("Do you want to adopt a puppy?");
-            if(visitorAnswer === "yes" || visitorAnswer === "Yes"){
-               document.write('We have alot of puppies that needs a home!');
-            } else {
-               document.write("Just look at those puppys eyes")
-            }
-       </script>
         <p>Welcome to Puppy Rescue – where second chances begin. We rescue, care for, and find loving homes for dogs in need. Join us in changing lives, one paw at a time.  </p>
-
+<script>
+   
+      adoptPuppy();
+      
+</script>
         <section>
             <div class="container">
                 <img class="image" alt="rescue dog1" src="dog1.jpg">
