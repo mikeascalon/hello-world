@@ -8,7 +8,7 @@
 function getName(name) {
     let userName = prompt("Your name:", "");
 
-    if (userName === ''){
+    while (userName === ''){
         userName = prompt('Dont be ashemed, tell us your name');
     }
     
@@ -27,4 +27,13 @@ function adoptPuppy() {
     } else {
         document.write("Just look at those puppy's eyes");
     }
+    console.log (visitorAnswer);
 }
+
+function howManyPuppiesYouWantToSee(){
+    let numOfPuppies = prompt('How many puppies would you like to see?');
+  
+    for(let i = 0; i < numOfPuppies; i++){
+      document.write("<img class='loop-img' src='dog-emoji.jpg' alt='this dog is over it' >")
+    }
+  }
