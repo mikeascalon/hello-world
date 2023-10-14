@@ -1,8 +1,8 @@
 
-{/* <script language="javascript">
-    alert("Welcome to Puppy Rescue")
+
+    alert(" Welcome to Puppy Rescue")
    
-</script> */}
+
 
 
 function getName(name) {
@@ -36,4 +36,7 @@ function howManyPuppiesYouWantToSee(){
     for(let i = 0; i < numOfPuppies; i++){
       document.write("<img class='loop-img' src='dog-emoji.jpg' alt='this dog is over it' >")
     }
-  }
+    document.write(" We might have " + numOfPuppies + " Puppies adopted today!");
+}
+
+  
